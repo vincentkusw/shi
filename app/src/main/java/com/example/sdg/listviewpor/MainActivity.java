@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 			public void onItemClick(AdapterView<?> parent, final View view, int position, long id) {
 				new AlertDialog.Builder(MainActivity.this)
 						.setTitle("Alert Dialog")
-						.setMessage("What the fuck do you want?")
+						.setMessage("What the fuck do you want,bitch?")
 						.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
 							@Override
 							public void onClick(DialogInterface dialog, int which) {
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 						.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
 							@Override
 							public void onClick(DialogInterface dialog, int which) {
-								Toast.makeText(getApplicationContext(), "Go farm",
+								Toast.makeText(getApplicationContext(), "Go farm, dick head",
 										Toast.LENGTH_SHORT).show();
 							}
 						}).show();
