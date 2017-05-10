@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 						.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
 							@Override
 							public void onClick(DialogInterface dialog, int which) {
-								Toast.makeText(getApplicationContext(), "Go farm, dick head",
+								Toast.makeText(getApplicationContext(), "Go farm, dick head, bye",
 										Toast.LENGTH_SHORT).show();
 							}
 						}).show();
